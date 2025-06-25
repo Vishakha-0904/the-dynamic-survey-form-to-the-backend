@@ -1,0 +1,45 @@
+.question-builder {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.question-builder label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.question-builder input[type="text"],
+.question-builder select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.question-builder .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.question-builder .button-group {
+  margin-top: 10px;
+}
+
+.question-builder .button-group button {
+  background-color: #007bff;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-weight: 600;
+}
+
+.question-builder .button-group button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
