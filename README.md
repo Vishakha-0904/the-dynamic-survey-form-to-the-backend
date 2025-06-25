@@ -2,13 +2,13 @@
 My Folder
     |
     |                                                      
-    |___Backend
+    |___Backend(Store backend data)
     |      |-------lastSubmission.json(Store the data after submitting from frontend)
            |-------server.js
     |
     |
     |
-    |---Frontend
+    |---Frontend(Store Frontend data)
            |
            |-----src
                     /component
